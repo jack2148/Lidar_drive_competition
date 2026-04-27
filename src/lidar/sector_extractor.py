@@ -13,7 +13,7 @@ from std_msgs.msg import Float32MultiArray
 
 class LidarIndexReader(Node):
     def __init__(self):
-        super().__init__('lidar_front_sides_reader')
+        super().__init__('lidar_cone')
 
         # === QoS ===
         qos = QoSProfile(depth=100)
